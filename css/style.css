@@ -609,6 +609,10 @@ button.navbar-toggler.collapsed .fa-bars {
     background: var(--bg-light);
 }
 
+.dark .packages {
+    background: #222;
+}
+
 .packages__heading {
     text-align: center;
 }
@@ -631,6 +635,11 @@ button.navbar-toggler.collapsed .fa-bars {
     background: var(--bg-color);
     border-radius: 6px;
     align-self: center;
+}
+
+.dark .package__item {
+    background: #151515;
+    border-color: #333;
 }
 
 .package__item.active {
